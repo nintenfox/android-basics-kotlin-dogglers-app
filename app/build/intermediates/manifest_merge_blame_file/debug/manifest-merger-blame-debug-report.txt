@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dogglers"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.REORDER_TASKS" />
+11-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:25:5-72
+11-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:25:22-69
+12
+13    <application
+13-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:4:5-34:19
+14        android:allowBackup="true"
+14-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:5:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/0776a3e9e5ab3ee70403577a88e91055/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:6:9-43
+18        android:label="@string/app_name"
+18-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:7:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:8:9-54
+20        android:supportsRtl="true"
+20-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:9:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.Dogglers" >
+22-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:10:9-46
+23        <activity android:name="com.example.dogglers.VerticalListActivity" >
+23-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:11:9-15:20
+23-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:11:19-55
+24            <meta-data
+24-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:12:13-14:49
+25                android:name="android.support.PARENT_ACTIVITY"
+25-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:13:17-63
+26                android:value=".MainActivity" />
+26-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:14:17-46
+27        </activity>
+28        <activity android:name="com.example.dogglers.HorizontalListActivity" >
+28-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:16:9-20:20
+28-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:16:19-57
+29            <meta-data
+29-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:12:13-14:49
+30                android:name="android.support.PARENT_ACTIVITY"
+30-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:13:17-63
+31                android:value=".MainActivity" />
+31-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:14:17-46
+32        </activity>
+33        <activity android:name="com.example.dogglers.GridListActivity" >
+33-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:21:9-25:20
+33-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:21:19-51
+34            <meta-data
+34-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:12:13-14:49
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:13:17-63
+36                android:value=".MainActivity" />
+36-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:14:17-46
+37        </activity>
+38        <activity
+38-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:26:9-33:20
+39            android:name="com.example.dogglers.MainActivity"
+39-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:26:19-47
+40            android:exported="true" >
+40-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:27:13-36
+41            <intent-filter>
+41-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:28:13-32:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:17-69
+42-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:31:17-77
+44-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:31:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:28:9-37:20
+48            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+48-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:29:13-96
+49            android:exported="true"
+49-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:30:13-36
+50            android:multiprocess="true"
+50-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:31:13-40
+51            android:taskAffinity=""
+51-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:32:13-36
+52            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+52-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:33:13-78
+53            <intent-filter>
+53-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:17-69
+54-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:25-66
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:27:9-34:20
+58            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+58-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:28:13-99
+59            android:exported="true"
+59-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:29:13-36
+60            android:theme="@android:style/Theme" >
+60-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:30:13-49
+61            <intent-filter>
+61-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:17-69
+62-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:25-66
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:35:9-42:20
+66            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+66-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:36:13-95
+67            android:exported="true"
+67-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:37:13-36
+68            android:theme="@android:style/Theme" >
+68-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:38:13-49
+69            <intent-filter>
+69-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:17-69
+70-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:25-66
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:43:9-50:20
+74            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+74-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:44:13-103
+75            android:exported="true"
+75-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:45:13-36
+76            android:theme="@android:style/Theme.Dialog" >
+76-->[androidx.test:core:1.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/6dd06d196f7dfcda7597f0bc9fb19cdc/transformed/core-1.4.0/AndroidManifest.xml:46:13-56
+77            <intent-filter>
+77-->[androidx.fragment:fragment-testing:1.4.1] /Users/nikitatsarenkov/.gradle/caches/transforms-3/87c290a6141e46885aef0f43e7f47c96/transformed/fragment-testing-1.4.1/AndroidManifest.xml:34:13-36:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:17-69
+78-->/Users/nikitatsarenkov/GitHub/android-basics-kotlin-dogglers-app/app/src/main/AndroidManifest.xml:29:25-66
+79            </intent-filter>
+80        </activity>
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/926fa802d192116dc1a1d25659ae7656/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.0.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/926fa802d192116dc1a1d25659ae7656/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+84            android:authorities="com.example.dogglers.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/926fa802d192116dc1a1d25659ae7656/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.0.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/926fa802d192116dc1a1d25659ae7656/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.0.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/926fa802d192116dc1a1d25659ae7656/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.0.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/926fa802d192116dc1a1d25659ae7656/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.0.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/926fa802d192116dc1a1d25659ae7656/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/f7913199b6cc98d267e4e4fe99445681/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/f7913199b6cc98d267e4e4fe99445681/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/nikitatsarenkov/.gradle/caches/transforms-3/f7913199b6cc98d267e4e4fe99445681/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+92        </provider>
+93    </application>
+94
+95</manifest>
